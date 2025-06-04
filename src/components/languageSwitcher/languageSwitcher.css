@@ -1,0 +1,87 @@
+.lang-switcher {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.lang-switcher .active-lang {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 100%;
+    font-size: 12px;
+    backdrop-filter: blur(5px);
+    background: var(--blurry-bg-color);
+    box-shadow: 0 0 5px #00000023;
+    transition: all ease-in-out 150ms;
+}
+.lang-switcher .active-lang.open {
+    border-radius: 30px 30px 0 0;
+    backdrop-filter: blur(5px);
+    background: var(--blurry-bg-color);
+    box-shadow: none;
+}
+.lang-switcher .active-lang:hover {
+    background: var(--blurry-bg-color-hover);
+}
+.lang-switcher .active-lang:hover.open {
+    background: var(--blurry-bg-color-hover);
+}
+
+
+/* Le dropdown */
+.lang-switcher .dropdown {
+    position: absolute;
+    left: 0;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    list-style: none;
+    backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: var(--blurry-bg-color);
+    z-index: 10;
+}
+
+.lang-switcher .dropdown ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Items du dropdown */
+.lang-switcher .dropdown li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.lang-switcher .dropdown li button {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-size: 12px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.lang-switcher .dropdown li button:hover {
+    background-color: var(--button-bg);
+}

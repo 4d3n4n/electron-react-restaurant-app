@@ -1,0 +1,111 @@
+:root {
+  --bg-color-electron: #f4f4f491;
+  --bg-color: #ddd;
+  --blurry-bg-color: #ffffff53;
+  --blurry-bg-color-hover: #f8f8f895;
+  --text-color: #333;
+  ---immutable-text-color: #ddd;
+  --link-color: #333;
+  --pill-bg-color: #ddd;
+  --button-bg: #ddd;
+  --button-bg-hover: #333;
+  --line-color: #33333355;
+  --invert: invert(100%);
+  --invert-hover: invert(0%);
+  --gradient: linear-gradient(to bottom, #ddd 20%, transparent 50%, transparent 100%);
+}
+
+[data-theme="dark"] {
+  --bg-color-electron: #13131396;
+  --bg-color: #333;
+  --blurry-bg-color: #00000054;
+  --blurry-bg-color-hover: #212121ac;
+  --text-color: #ddd;
+  ---immutable-text-color: #ddd;
+  --link-color: #ddd;
+  --pill-bg-color: #333;
+  --button-bg: #333;
+  --button-bg-hover: #ddd;
+  --line-color: #dcdcdc5b;
+  --invert: invert(0%);
+  --invert-hover: invert(100%);
+  --gradient: linear-gradient(to bottom, #333 20%, transparent 40%, transparent 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  color: var(--text-color);
+}
+
+/* fonts */
+body, body * {
+  font-family: 'Raleway', sans-serif;
+}
+
+[lang="ja"],
+[lang="ja"] * {
+  font-family: 'Zen Old Mincho', serif;
+}
+
+
+
+body {
+  color: var(--text-color);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 100%;
+  height: fit-content;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  flex: 0 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav button {
+  background-color: transparent;
+  margin: 0 8px;
+}
+
+ul li {
+  list-style: none;
+}
+
+p, a, div, li, span, section, h1, h2, h3, h4, h5, h6, div, strong, button {
+  transition: all 0.3s ease;
+}
+
+i,
+.fa {
+  font-family: "FontAwesome" !important;
+  font-style: normal;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}

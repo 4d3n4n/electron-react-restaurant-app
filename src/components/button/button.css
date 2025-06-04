@@ -1,0 +1,32 @@
+.app-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--text-color);
+    background-color: var(--button-bg);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 18px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.app-button:hover {
+    background-color: var(--button-bg-hover);
+    color: var(--bg-color);
+}
+
+.app-button i {
+    margin-right: 10px;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.app-button:hover i {
+    color: var(--bg-color);
+}

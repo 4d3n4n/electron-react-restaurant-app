@@ -1,0 +1,153 @@
+.menu-section {
+    padding: 130px 30px 30px 30px;
+    position: relative;
+    min-height: 1000px;
+    border-radius: 70px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--bg-color);
+    transition: all 0.3s ease;
+
+    .menu-title {
+        z-index: 1;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .menu-content {
+        z-index: 1;
+        text-align: center;
+    }
+
+    .menu-nav {
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .menu-buttons {
+        z-index: 1;
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 30px;
+        background: var(--blurry-bg-color);
+    }
+
+    .menu-buttons button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu-buttons .admin-edit-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: var(--text-color);
+    }
+
+    .menu-buttons .admin-edit-icons i {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    .menu-nav button {
+        background: transparent;
+        color: var(--text-color);
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .menu-nav button.active,
+    .menu-nav button:hover {
+        background: var(--link-color);
+        color: var(--bg-color);
+        box-shadow: 0 2px 6px #00000031;
+    }
+
+
+    .menu-nav .add-product-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: 51.55px;
+        height: 51.55px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 20px;
+        background: var(--link-color);
+        color: var(--bg-color);
+        box-shadow: 0 2px 6px #00000031;
+        transition: all 0.3s ease;
+    }
+
+    .menu-nav .add-product-btn:hover {
+        background: var(--link-color);
+        color: var(--bg-color);
+        box-shadow: 0 2px 6px #00000031;
+    }
+
+    .error-message {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #ff4444;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+}
+
+.menu-section .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    object-fit: cover;
+    filter: blur(70px);
+    opacity: 0.5;
+}

@@ -1,0 +1,8 @@
+.menu-category {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+}

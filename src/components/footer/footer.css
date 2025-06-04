@@ -1,0 +1,86 @@
+.app-footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 100%;
+    background-color: var(--blurry-bg-color);
+    color: var(--text-color);
+    backdrop-filter: blur(15px);
+    border: 1px solid #ffffff51;
+    border-radius: 100px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* social */
+.app-footer .socials {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.app-footer .infosContact .infosTel {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.app-footer .xBtn,
+.app-footer .lineBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0 15px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+}
+.app-footer .lineBtn {
+    background: #05c755;
+}
+
+.app-footer .xBtn img,
+.app-footer .lineBtn img {
+    height: 18px;
+    margin-right: 10px;
+}
+.app-footer .xBtn img {
+    height: 14px;
+    filter: invert(1);
+}
+
+
+
+/* copyright */
+.app-footer p {
+    padding-top: 12px;
+    margin-top: 12px;
+    border-top: 2px solid var(--line-color);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app-footer p a {
+    color: var(--bg-color);
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: var(--text-color);
+    margin-left: 10px;
+}

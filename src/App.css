@@ -1,0 +1,15 @@
+.website-container {
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  /* max-width: 1920px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  margin-top: 30px;
+  height: fit-content;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
