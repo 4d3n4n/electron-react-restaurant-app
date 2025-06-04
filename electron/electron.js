@@ -1,12 +1,7 @@
-import { app, BrowserWindow, ipcMain, Menu, Tray, nativeTheme } from 'electron';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import isDev from 'electron-is-dev';
-import log from 'electron-log';
-
-// Configuration pour __dirname en ESM
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const { app, BrowserWindow, ipcMain, Menu, Tray, nativeTheme } = require('electron');
+const path = require('path');
+const isDev = require('electron-is-dev');
+const log = require('electron-log');
 
 // Configuration des logs
 log.transports.file.resolvePathFn = () => path.join(__dirname, '../logs/main.log');

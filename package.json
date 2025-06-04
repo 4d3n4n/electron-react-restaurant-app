@@ -2,13 +2,8 @@
   "name": "app_desktop_adenan_khachnane",
   "version": "0.1.0",
   "private": true,
-  "main": "electron/electron.mjs",
+  "main": "electron/electron.js",
   "homepage": "./",
-  "author": {
-    "name": "Adenan Khachnane",
-    "email": "adenan.khachnane@edu.ece.fr"
-  },
-  "description": "Application de bureau pour la gestion du menu du restaurant, permettant aux administrateurs de mettre à jour leur menu en temps réel.",
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",
     "@react-google-maps/api": "^2.20.6",
@@ -27,11 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp electron/electron.mjs build/ && cp electron/preload.mjs build/ && cp electron/package.json build/",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron-dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
-    "electron-pack": "npm run build && electron-builder",
+    "electron-pack": "electron-builder -c.extraMetadata.main=electron/electron.js",
     "preelectron-pack": "npm run build"
   },
   "eslintConfig": {
@@ -68,8 +63,7 @@
       "node_modules/**/*"
     ],
     "directories": {
-      "buildResources": "assets",
-      "output": "dist"
+      "buildResources": "assets"
     },
     "mac": {
       "category": "public.app-category.food-and-drink",

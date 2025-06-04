@@ -351,3 +351,83 @@
     at Tray.<anonymous> (/Users/adenankhachnane/Desktop/Bachelor 3/DEV DESKTOP/Electron/app_desktop_adenan_khachnane/electron/electron.js:84:24)
     at Tray.emit (node:events:518:28)
 [2025-06-04 10:30:00] [info]  Quitter l'application depuis le tray
+[2025-06-04 14:23:45] [info]  Démarrage de l'application
+[2025-06-04 14:23:46] [info]  Application prête
+[2025-06-04 14:23:46] [info]  Création de la fenêtre principale
+[2025-06-04 14:23:46] [info]  Mode développement activé
+[2025-06-04 14:23:46] [info]  Création du tray...
+[2025-06-04 14:23:46] [info]  Chemin de l'icône tray: /Users/adenankhachnane/Desktop/Bachelor 3/DEV DESKTOP/Electron/app_desktop_adenan_khachnane/assets/icons/tray-icon.png
+[2025-06-04 14:25:51] [info]  Démarrage de l'application
+[2025-06-04 14:25:51] [info]  Application prête
+[2025-06-04 14:25:51] [info]  Création de la fenêtre principale
+[2025-06-04 14:25:51] [info]  Mode développement activé
+[2025-06-04 14:25:51] [info]  Création du tray...
+[2025-06-04 14:25:51] [info]  Chemin de l'icône tray: /Users/adenankhachnane/Desktop/Bachelor 3/DEV DESKTOP/Electron/app_desktop_adenan_khachnane/assets/icons/tray-icon.png
+[2025-06-04 14:25:52] [info]  Démarrage du processus de rendu
+[2025-06-04 14:25:52] [info]  Récupération du thème système demandée
+[2025-06-04 14:25:52] [info]  Thème système récupéré: dark
+[2025-06-04 14:25:52] [info]  Écouteur de changement de thème ajouté
+[2025-06-04 14:25:52] [info]  Écouteur de changement de thème ajouté
+[2025-06-04 14:26:10] [info]  Changement de thème demandé: light
+[2025-06-04 14:26:10] [info]  Changement de thème: light
+[2025-06-04 14:26:10] [info]  Écouteur de changement de thème ajouté
+[2025-06-04 14:26:10] [info]  Thème changé: light
+[2025-06-04 14:26:10] [info]  Thème changé: light
+[2025-06-04 14:26:10] [info]  Thème changé: light
+[2025-06-04 14:26:37] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:37] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:37] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:41] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:45] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:50] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:51] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:51] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:26:51] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:13] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:14] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:17] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:17] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:17] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:43] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:44] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:45] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:47] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:27:47] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:02] [info]  Affichage du menu contextuel demandé pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:02] [info]  Affichage du menu contextuel pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:02] [info]  Affichage du menu contextuel demandé pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:02] [info]  Affichage du menu contextuel pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:04] [info]  Affichage du menu contextuel demandé pour le produit: 7xKih94ay39r2ttNQr07
+[2025-06-04 14:28:04] [info]  Affichage du menu contextuel pour le produit: 7xKih94ay39r2ttNQr07
+[2025-06-04 14:28:07] [info]  Affichage du menu contextuel demandé pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:07] [info]  Affichage du menu contextuel pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:31] [info]  Affichage du menu contextuel demandé pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:31] [info]  Affichage du menu contextuel pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:32] [info]  Affichage du menu contextuel demandé pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:32] [info]  Affichage du menu contextuel pour le produit: fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:34] [info]  Action: Modifier le produit fA5CqRekgwP4gCm31n46
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:34] [info]  Action du menu contextuel reçue: { action: 'edit', productId: 'fA5CqRekgwP4gCm31n46' }
+[2025-06-04 14:28:37] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:38] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:39] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:51] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:52] [info]  Écouteur d'action du menu contextuel ajouté
+[2025-06-04 14:28:52] [info]  Écouteur d'action du menu contextuel ajouté
