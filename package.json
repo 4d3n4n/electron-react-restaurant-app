@@ -11,8 +11,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "electron-is-dev": "^3.0.1",
-    "electron-log": "^5.4.0",
     "firebase": "^11.6.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -52,26 +50,33 @@
     "cross-env": "^7.0.3",
     "electron": "^36.2.1",
     "electron-builder": "^26.0.12",
+    "electron-is-dev": "^3.0.1",
+    "electron-log": "^5.4.0",
     "react-scripts": "^5.0.1",
     "wait-on": "^8.0.3"
+  },
+  "description": "Application de bureau pour la gestion du menu du restaurant",
+  "author": {
+    "name": "Adenan Khachnane",
+    "email": "adenan.khachnane@edu.ece.fr"
   },
   "build": {
     "appId": "com.restaurant.menu",
     "productName": "Restaurant Menu",
     "files": [
       "build/**/*",
-      "node_modules/**/*"
+      "electron/**/*"
     ],
     "directories": {
       "buildResources": "assets"
     },
     "mac": {
       "category": "public.app-category.food-and-drink",
+      "icon": "assets/icons/icon.icns",
       "target": [
         "dmg",
         "zip"
-      ],
-      "icon": "assets/icons/icon.icns"
+      ]
     },
     "win": {
       "target": [

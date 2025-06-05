@@ -18,22 +18,14 @@ let tray = null;
 function createWindow() {
     log.info('Création de la fenêtre principale');
     mainWindow = new BrowserWindow({
-        width: 1400,
-        minWidth: 800,
-        minHeight: 1050,
-        maxHeight: 1050,
-        icon: path.join(__dirname, '../assets/icons/icon.icns'),
-        titleBarStyle: 'hiddenInset',
-        frame: false,
-        transparent: true,
-        vibrancy: 'sidebar',
-        visualEffectState: 'active',
-        backgroundColor: '#00000000',
+        width: 1200,
+        height: 800,
         webPreferences: {
             nodeIntegration: true,
-            contextIsolation: true,
-            preload: path.join(__dirname, 'preload.js')
-        }
+            contextIsolation: false,
+            enableRemoteModule: true
+        },
+        icon: path.join(__dirname, '../assets/icons/icon.png')
     });
 
     mainWindow.loadURL(
@@ -51,32 +43,13 @@ function createWindow() {
         log.info('Fermeture de la fenêtre principale');
         mainWindow = null;
     });
-}
-
-function createTray() {
-    log.info("Création du tray...");
-
-    const trayIconPath = path.join(__dirname, '../assets/icons/tray-icon.png');
-    log.info("Chemin de l'icône tray:", trayIconPath);
-    tray = new Tray(trayIconPath);
 
     const contextMenu = Menu.buildFromTemplate([
-        {
-            label: 'Afficher',
-            click: () => {
-                mainWindow.show();
-                log.info('Affichage de la fenêtre depuis le tray');
-            }
-        },
-        {
-            label: 'Quitter',
-            click: () => {
-                log.info('Quitter l\'application depuis le tray');
-                app.quit();
-            }
-        }
+        { label: 'Afficher l\'application', click: () => mainWindow.show() },
+        { label: 'Quitter', click: () => app.quit() }
     ]);
 
+    tray = new Tray(path.join(__dirname, '../assets/icons/icon.png'));
     tray.setToolTip('Restaurant Menu');
     tray.setContextMenu(contextMenu);
 
@@ -94,7 +67,6 @@ function createTray() {
 app.whenReady().then(() => {
     log.info('Application prête');
     createWindow();
-    createTray();
 });
 
 app.on('window-all-closed', () => {

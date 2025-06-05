@@ -11,9 +11,9 @@
 | **3 fonctionnalités natives via Electron**                                                               | 3              | 3          |
 | **Utilisation de 3 API navigateur**                                                                      | 3              | 3          |
 | **Création d’un installeur pour la plateforme de développement**                                         | 0              | 2          |
-| **Publication sur un gestionnaire de paquets**                                                           | 1 _(README à la place)_ | 2          |
-| **Fonctionnalités supplémentaires**                                                                      | 2              | 2          |
+| **Publication sur un gestionnaire de paquets**                                                           | 0              | 2          |
+| **Fonctionnalités supplémentaires**                                                                      | 1              | 2          |
 
 ---
 
-## ✅ Total : **17 / 20**
+## ✅ Total : **15 / 20**
